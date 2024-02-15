@@ -1,6 +1,6 @@
 {
   "name": "@milandhar/html-to-json-parser",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "This library converts HTML to JSON or JSON to HTML tree",
   "type": "module",
   "source": "src/index.ts",
@@ -19,7 +19,10 @@
     "lint": "eslint src test",
     "test": "jest"
   },
-  "repository": "https://github.com/milandhar/html-to-json.git",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/milandhar/html-to-json.git"
+  },
   "keywords": [
     "html",
     "json",
